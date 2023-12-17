@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presto.it</title>
+    <link rel="stylesheet" href="rubrica.css">
+    <script src="rubrica.js"></script>
+    <link rel="stylesheet" href="rubrica.aggiunta.css">
+    
+</head>
+<body>
+<div onclick="chiudiaggiunta()" class="contenitore-aggiunta-contatto" id="sfondoscuro">
+  
+
+</div>
+<div class="aggiunta-contatto" id="mostracompilazione">
+  <p class="Edit">Edit</p>
+  <img id="chiusura" onclick="chiudiaggiunta()" class="x"  src="icone/9111025_circle_x_icon.png">
+  <input class="input-dati" title="nome" placeholder="Nome" id="input-nome">
+  <input class="input-dati" title="cognome" placeholder="Cognome" id="input-cognome">
+  <input class="input-dati" title="telefono" placeholder="Numero telefono" id="input-telefono">
+  <div class="contenitore-bottone">
+    <button onclick="salvacontatto()" class ="button-save">Save</button>
+  </div>
+  
+</div>
+  <div class="rubrica">
+    <div class="sezione-sinistra">
+      <div class="sezione-utente">
+        <img src="immagini/83.jpg" title="utente" class="immagine-utente">
+        <p class="nome-utente">Yuri Valente</p>
+      </div>
+
+      <div class="sezione-cerca-aggiungi-contatto">
+        <div class="sezione-cerca-persone">
+          <img src="icone/2931184_normal_regular_zoom_glass_magnifier_icon.png" class="icone-search" title="search">
+          <input oninput="ricercautenti()" id="input-search" class="input" title="input" placeholder="Cerca persone...">
+        </div>
+        <img onclick="mostraaggiunta();" src="icone/1814113_add_more_plus_icon.png" title="add" class="icon-aggiunta">
+        
+      </div>
+    </div>
+
+    <div class="sezione-destra" id="contatti-salvati">
+       <p id = "noResultP"class="contatti-p">Nessun risultato</p>
+   
+    </div>
+
+  </div>
+ 
+</body>
+</html>

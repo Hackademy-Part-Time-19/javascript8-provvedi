@@ -1,0 +1,102 @@
+.contenitore-aggiunta-contatto{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: none;
+    z-index: 20;
+}
+
+.aggiunta-contatto{
+  background-color: rgb(50, 49, 49);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
+  width: 33vw;
+  position: absolute;
+  left:25vw;
+  top:10vh;
+  border: none;
+  border-radius: 20px;
+  display: none;
+  z-index: 21;
+
+}
+
+.Edit{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.x{
+    height: 40px;
+    object-fit: cover;
+    position: absolute;
+    right:0;
+    top:30;
+    right: 40px;
+    cursor: pointer;
+}
+
+:hover.x{
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.input-dati{
+  background-color: rgb(74, 74, 74);
+  color: white;
+  margin-bottom: 30px;
+  padding: 12px 0px 12px 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.contenitore-bottone{
+    height:100%;
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+
+
+.button-save{
+ 
+  color: white;
+  font-size: 22px;
+  border: none;
+  background-color: red;
+  padding: 15px 0px 15px 0;
+  border-radius: 10px;
+ 
+  position: absolute;
+  cursor: pointer;
+  bottom: 50px;
+  width: 100%;
+}
+
+
+:hover.button-save{
+    scale: 1.05;
+    transition: 0.5s;
+    
+}
+
+
+
+
+
